@@ -32,5 +32,8 @@ We paid attention to these
   3. **Search**
 </div>
 
+# What settings did we use for this project
+We put all the <var>Redis</var> settings in one **Json** file
+
 # How to use this project
 foo
