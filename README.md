@@ -128,3 +128,5 @@ Open the browser and follow the **your short link**
 ```html
 http://localhost:8080/THE-SHORT-URL
 ```
+
+# Examples
