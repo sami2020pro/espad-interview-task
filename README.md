@@ -47,6 +47,8 @@ We used these technologies
   2. **Golang libraries**
   
   3. **Redis**
+  
+  4. **Docker**
 
 # How to create a unique identifier for URL
 <div>
@@ -85,6 +87,9 @@ Handler:
 
 Storage:
 > storage.go
+
+Docker:
+> Dockerfile
 
 Main:
 > main.go
