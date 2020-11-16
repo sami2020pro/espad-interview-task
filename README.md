@@ -130,6 +130,7 @@ http://localhost:8080/THE-SHORT-URL
 ```
 
 <hr />
+
 # Examples
 
 <hr />
