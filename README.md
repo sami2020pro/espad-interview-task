@@ -35,5 +35,8 @@ We paid attention to these
 # What settings did we use for this project
 We put all the <var>Redis</var> settings in one **Json** file
 
+# How we worked with storage and Redis
+We wrote a <var>Golang</var> code to do our job with **Redis**
+
 # How to use this project
 foo
