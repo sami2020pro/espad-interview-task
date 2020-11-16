@@ -9,6 +9,17 @@
   />
 </div>
 
+# What is this project
+
+# What technologies did we use
+We used these technologies
+
+  1. Golang 
+  
+  2. Golang libraries
+  
+  3. Redis
+
 # How to create a unique identifier for URL
 <div>
 We paid attention to these
