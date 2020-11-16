@@ -72,7 +72,7 @@ And you can find this code in the ``storage.go`` file in the **storage directory
 Bar
 
 # Why didn't we use Postman
-We also had the ability to use _Postman, but we didn't want it to get too crowded, so we used **Redis** for fun.
+We also had the ability to use <var>Postman</var>, but we didn't want it to get too crowded, so we used **Redis** for fun.
 
 # How to use this project
 Foo
