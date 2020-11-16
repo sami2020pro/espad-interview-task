@@ -93,6 +93,12 @@ Main:
 We also had the ability to use <var>Postman</var>, but we didn't want it to get too crowded, so we used **Redis** for fun.
 
 # How to use this project
+Get the modules and dependencies
+
+```golang
+go mod download
+```
+
 Run service
 
 ```golang
