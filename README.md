@@ -36,6 +36,9 @@ We need create and write:
         
         6) Clean code
 
+# Does this project have any dependencies
+***Yes***
+
 # What technologies did we use
 We used these technologies
 
