@@ -130,7 +130,7 @@ http://localhost:8080/THE-SHORT-URL
 ```
 
 # Contact
-**gamil**
+**gmail**
 - samprogram2007@gmail.com
 
 <hr />
