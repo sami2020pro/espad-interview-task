@@ -160,7 +160,7 @@ Create a **short link**
       style="max-width:100%;"
 />
 
-generated <var>short link</var> in **main** 
+Generated <var>short link</var> in **main** 
 
 <img
       src="/data/example/generated-link-main-file.png"
@@ -184,7 +184,7 @@ Enter and wait after get **details**
       style="max-width:100%;"
 />
 
-open the **url** in your Browser 
+Open the **url** in your Browser 
 
 <img
       src="/data/example/open-the-url.png"
