@@ -19,7 +19,7 @@
 </div>
 
 # What is this project
-This project is the task of <strong>Spad Company</strong>
+This project is the task of <strong>Aspad Company</strong>
 
 # TODOs
 We need create and write:
