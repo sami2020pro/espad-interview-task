@@ -135,6 +135,19 @@ Open the browser and follow the **your short link**
 http://localhost:8080/THE-SHORT-URL
 ```
 
+# How to use the Docker
+Go to the ***task file*** and we will run in ***terminal command*** to build **Docker image**
+
+```docker
+docker build . -t task 
+```
+
+Run the **Docker image**
+
+```docker
+docker run -p 8080:8080 task
+```
+
 # Contact
 **gmail**
 - samprogram2007@gmail.com
