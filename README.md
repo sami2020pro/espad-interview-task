@@ -10,9 +10,12 @@
 </div>
 
 # How to create a unique identifier for URL
-<center>
+<div>
 We paid attention to these
+  
   1. Length
+  
   2. Uniqueness
+  
   3. Search
-</center>
+</div>
