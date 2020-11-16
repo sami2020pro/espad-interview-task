@@ -10,15 +10,16 @@
 </div>
 
 # What is this project
+This project is the task of <strong>Spad Company</strong>
 
 # What technologies did we use
 We used these technologies
 
-  1. Golang 
+  1. **Golang** 
   
-  2. Golang libraries
+  2. **Golang libraries**
   
-  3. Redis
+  3. **Redis**
 
 # How to create a unique identifier for URL
 <div>
