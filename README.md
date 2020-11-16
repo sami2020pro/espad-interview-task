@@ -28,7 +28,7 @@ We need create and write:
 
         2) The service should redirect users to original URLs when they access a short link 
         
-        3) The short link hace a lifetime
+        3) The short link have a lifetime
         
         4) The service should have a visits count 
         
