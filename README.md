@@ -9,6 +9,8 @@
   />
 </div>
 
+# Preview and Codes
+
 # What is this project
 This project is the task of <strong>Spad Company</strong>
 
