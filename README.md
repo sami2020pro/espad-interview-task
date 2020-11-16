@@ -39,6 +39,8 @@ We put all the <var>Redis</var> settings in one **Json** file
 And you can find all the settings in the ``configuration.json`` file
 
 And You can change your settings in the ``configuration.json`` file
+
+
 </div>
 
 # How we worked with storage and Redis
