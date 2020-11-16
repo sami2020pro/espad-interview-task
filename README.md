@@ -3,7 +3,7 @@
 
 <div>
   <img
-      src="/data/download.png"
+      src="/data/task-completed.png"
       alt="aspad interview task | task completed"
       style="max-width:100%;"
   />
