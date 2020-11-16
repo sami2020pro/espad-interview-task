@@ -93,4 +93,38 @@ Main:
 We also had the ability to use <var>Postman</var>, but we didn't want it to get too crowded, so we used **Redis** for fun.
 
 # How to use this project
-Foo
+Run service
+
+```golang
+go run main.go
+```
+
+Create a short link 
+
+```shell
+curl -L -X POST 'localhost:8080/encode' -H 'Content-Type: application/json' --data-raw '{
+    "url": "WRITE-YOUR-URL-IN-HERE",
+    "expires": "WRITE-YOUR-EXPIRE-TIME-IN-HERE"
+}'
+```
+
+we will get a **response** like:
+```json
+{
+   "success": true,
+   "shortUrl": "http://localhost:8080/THE-SHORT-URL"
+}
+```
+
+Any short url can be included in the **THE-SHORT-URL** 
+
+Get detailed **information** for the short link
+
+```shell
+curl -L -X GET 'http://localhost:8080/THE-SHORT-URL'
+```
+
+Open the browser and follow the **your short link**
+```html
+http://localhost:8080/THE-SHORT-URL
+```
