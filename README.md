@@ -53,6 +53,9 @@ We wrote a <var>Golang</var> code to do our job with **Redis**
 
 And you can find this code in the ``storage.go`` file in the **storage directory**
 
+# How we handled the whole project
+Bar
+
 # Why didn't we use Postman
 _Foo
 
