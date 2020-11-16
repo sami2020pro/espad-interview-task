@@ -5,6 +5,7 @@ import (
 	"io/ioutil"
 )
 
+// Create Config structure 
 type Config struct {
 	Server struct {
 		Port string `json:"port"`
@@ -20,9 +21,10 @@ type Config struct {
 	} `json:"option"`
 } 
 
+// Read Config file from path and return that
 func FromFile(path string) (*Config, error) {
 	b, err := ioutil.ReadFile(path)
-	if err != nil {
+	if err != nil { // We check that if *err* has an error, we can return that error
 		return nil, err
 	}
 
@@ -31,5 +33,7 @@ func FromFile(path string) (*Config, error) {
 		return nil, err
 	}
 
-	return &cfg, nil
+	return &cfg, nil // Return reference of cfg variable and error
 }
+
+/* ('Sami Ghasemi) */

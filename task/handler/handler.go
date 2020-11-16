@@ -3,15 +3,16 @@ package handler
 import (
   "encoding/json"
   "fmt"
-  "github.com/fasthttp/router"
-  "github.com/valyala/fasthttp"
+  "github.com/fasthttp/router" // library
+  "github.com/valyala/fasthttp" // library
   "log"
   "net/http"
   "net/url"
   "time"
-  "task/storage"
+  "task/storage" // storage.go
 )
 
+// Create New function
 func New(schema string, host string, storage storage.Service) *router.Router {
   router := router.New()
 
@@ -19,20 +20,23 @@ func New(schema string, host string, storage storage.Service) *router.Router {
   router.POST("/encode/", responseHandler(h.encode))
   router.GET("/{shortLink}", h.redirect)
   router.GET("/{shortLink}/info", responseHandler(h.decode))
-  return router
+  return router // Return the router variable 
 }
 
+// We need an answer, so we built this structure to tell us that it works or no 
 type response struct {
   Success bool        `json:"success"`
   Data    interface{} `json:"shortUrl"`
 }
 
+// This structure handle the schema and host and storage management 
 type handler struct {
   schema  string
   host    string
   storage storage.Service
 }
 
+// This function for response the handler 
 func responseHandler(h func(ctx *fasthttp.RequestCtx) (interface{}, int, error)) fasthttp.RequestHandler {
   return func(ctx *fasthttp.RequestCtx) {
      data, status, err := h(ctx)
@@ -42,12 +46,13 @@ func responseHandler(h func(ctx *fasthttp.RequestCtx) (interface{}, int, error))
      ctx.Response.Header.Set("Content-Type", "application/json")
      ctx.Response.SetStatusCode(status)
      err = json.NewEncoder(ctx.Response.BodyWriter()).Encode(response{Data: data, Success: err == nil})
-     if err != nil {
+     if err != nil { // We check that if *err* has an error, we can log that
         log.Printf("could not encode response to output: %v", err)
      }
   }
 }
 
+// Method for handler structure | this function for encoding 
 func (h handler) encode(ctx *fasthttp.RequestCtx) (interface{}, int, error) {
   var input struct {
      URL     string `json:"url"`
@@ -85,6 +90,7 @@ func (h handler) encode(ctx *fasthttp.RequestCtx) (interface{}, int, error) {
   return u.String(), http.StatusCreated, nil
 }
 
+// Method for handler structure | this function for decoding 
 func (h handler) decode(ctx *fasthttp.RequestCtx) (interface{}, int, error) {
   code := ctx.UserValue("shortLink").(string)
 
@@ -96,6 +102,7 @@ func (h handler) decode(ctx *fasthttp.RequestCtx) (interface{}, int, error) {
   return model, http.StatusOK, nil
 }
 
+// Method for handler structure | this function redirect us to original links and urls
 func (h handler) redirect(ctx *fasthttp.RequestCtx) {
   code := ctx.UserValue("shortLink").(string)
 
@@ -108,3 +115,5 @@ func (h handler) redirect(ctx *fasthttp.RequestCtx) {
 
   ctx.Redirect(uri, http.StatusMovedPermanently)
 }
+
+/* ('Sami Ghasemi) */
