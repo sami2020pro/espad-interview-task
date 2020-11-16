@@ -69,7 +69,22 @@ We wrote a <var>Golang</var> code to do our job with **Redis**
 And you can find this code in the ``storage.go`` file in the **storage directory**
 
 # How we handled the whole project
-Bar
+We divided the tasks and wrote a *special code* for each task and wanted each section to do its job **efficiently**.
+
+Base:
+> base62.go
+
+Config: 
+> configuration.go
+
+Handler:
+> handler.go
+
+Storage:
+> storage.go
+
+Main:
+> main.go
 
 # Why didn't we use Postman
 We also had the ability to use <var>Postman</var>, but we didn't want it to get too crowded, so we used **Redis** for fun.
