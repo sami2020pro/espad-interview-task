@@ -13,9 +13,12 @@
 <div>
 We paid attention to these
   
-  1. Length
+  1. **Length**
   
-  2. Uniqueness
+  2. **Uniqueness**
   
-  3. Search
+  3. **Search**
 </div>
+
+# How to use this project
+foo
