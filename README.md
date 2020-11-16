@@ -33,14 +33,11 @@ We paid attention to these
 </div>
 
 # What settings did we use for this project
-<div>
 We put all the <var>Redis</var> settings in one **Json** file
-
 
 And you can find all the settings in the ``configuration.json`` file
   
 And You can change your settings in the ``configuration.json`` file
-</div>
 
 # How we worked with storage and Redis
 We wrote a <var>Golang</var> code to do our job with **Redis**
