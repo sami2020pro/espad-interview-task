@@ -132,5 +132,52 @@ http://localhost:8080/THE-SHORT-URL
 <hr />
 
 # Examples
+<img
+      src="/data/example/run-main-file.png"
+      alt="aspad interview task | task completed | run-main-file"
+      style="max-width:100%;"
+/>
+
+<img
+      src="/data/example/run-redis-server.png"
+      alt="aspad interview task | task completed | run-redis-server"
+      style="max-width:100%;"
+/>
+
+<img
+      src="/data/example/create-a-short-link.png"
+      alt="aspad interview task | task completed | create-a-short-link"
+      style="max-width:100%;"
+/>
+
+<img
+      src="/data/example/generated-link-main-file.png"
+      alt="aspad interview task | task completed | generated-link-main-file"
+      style="max-width:100%;"
+/>
+
+<img
+      src="/data/example/get-detailed-information-for-the-short-link.png"
+      alt="aspad interview task | task completed | get-detailed-information-for-the-short-link"
+      style="max-width:100%;"
+/>
+
+<img
+      src="/data/example/eneter-and-wait-after-get-details.png"
+      alt="aspad interview task | task completed | eneter-and-wait-after-get-details"
+      style="max-width:100%;"
+/>
+
+<img
+      src="/data/example/open-the-url.png"
+      alt="aspad interview task | task completed | open-the-url"
+      style="max-width:100%;"
+/>
+
+<img
+      src="/data/example/we-redirected.png"
+      alt="aspad interview task | task completed | we-redirected"
+      style="max-width:100%;"
+/>
 
 <hr />
