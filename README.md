@@ -10,6 +10,13 @@
 </div>
 
 # Preview and Codes
+<div>
+  <img
+      src="/data/tree-the-task-codes.png"
+      alt="aspad interview task | tree the task codes"
+      style="max-width:100%;"
+  />
+</div>
 
 # What is this project
 This project is the task of <strong>Spad Company</strong>
