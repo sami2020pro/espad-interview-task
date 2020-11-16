@@ -1,5 +1,5 @@
 # aspad interview task
-<var>aspad interview task</var>
+<b><var>aspad interview task</var></b>
 
 <div>
   <img
@@ -8,3 +8,11 @@
       style="max-width:100%;"
   />
 </div>
+
+# How to create a unique identifier for URL
+<center>
+We paid attention to these
+  1. Length
+  2. Uniqueness
+  3. Search
+</center>
