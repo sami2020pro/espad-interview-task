@@ -32,9 +32,11 @@ We need create and write:
         
         4) The service should have a visits count 
         
-        5) Use camelCase
+        5) Docker image
         
-        6) Clean code
+        6) Use camelCase
+        
+        7) Clean code
 
 # Does this project have any dependencies
 ***Yes***
