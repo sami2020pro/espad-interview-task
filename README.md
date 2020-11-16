@@ -129,4 +129,7 @@ Open the browser and follow the **your short link**
 http://localhost:8080/THE-SHORT-URL
 ```
 
+<hr />
 # Examples
+
+<hr />
